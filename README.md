@@ -1,12 +1,12 @@
 
-<h1 align="center"> Halo Theme Stack  </h1>
+<h1 align="center"> Halo Theme Stack Mogai </h1>
 
 ---
 
 <div align="center">  
 
 一款 [Halo2.0](https://github.com/halo-dev/halo) 的博客主题  
-移植于 Hugo  [hugo-theme-stack](https://github.com/CaiJimmy/hugo-theme-stack)同名主题
+移植于 Halo2 [Theme-Stack](https://github.com/jiewenhuang/halo-theme-stack)的主题
 
 </div>
 
@@ -47,7 +47,7 @@ stack 主题支持以下 Halo 插件：
 
 ### 使用说明
 > 1、部分功能是使用插件进行支持  
-> 2、导航icon 推荐使用iconfont  
+> 2、导航icon 推荐使用[iconfont](https://tabler.io/icons)  
 > 3、~~使用搜索请安装插件后新建页面选择search模板，别名为‘search’ （2.2.4版本已适配插件路由）~~
 - [x] 卡片化设计
 - [x] 响应式主题
@@ -67,28 +67,13 @@ stack 主题支持以下 Halo 插件：
 - [ ] 细节优化
 
 ### 开发
-dev为开发版本，无特殊需求请拉取此版本进行开发，如果想奉献您的代码，也是拉取并提交到此分支，main分支不做合并。
+在本地开发环境，通过执行下面的脚本来启动主题
 
 ```bash
 cd ~/halo2-dev/themes/theme-stack
-```
-
-```bash
 pnpm install 
-```
-
-```bash
 pnpm dev
 ```
-
-### 🏭 贡献
-
-> 如果你想帮助完善 `stack` 主题，请：
-
-- 点 `star`
-- 提 `issue`
-- 修 `bugs`
-- 推 `pr`
 
 <br>
 
@@ -98,19 +83,8 @@ pnpm dev
 
 - [Halo](https://halo.run)
 - [hugo-theme-stack](https://github.com/CaiJimmy/hugo-theme-stack)
-- [theme-starter](https://github.com/halo-dev/theme-starter)
-- [Halo-theme-hao](https://github.com/liuzhihang/halo-theme-hao)
-- [Halo-theme-sakura](https://github.com/LIlGG/halo-theme-sakura/tree/next)
-- [plugin-links](https://github.com/halo-sigs/plugin-links)
-- [plugin-comment-widget](https://github.com/halo-sigs/plugin-comment-widget)
-- [plugin-search-widget](https://github.com/halo-sigs/plugin-search-widget)
-- 
 - ......
 
-<br>
-### TinyTale Halo2 配套小程序
-- [TinyTale](https://www.jiewen.run/archives/TinyTale-formal-edition)
-基于Halo2.0的小程序，支持文章列表、文章详情、分类列表、图库展示、瞬间展示、评论展示、发布图库、发布瞬间、支持随机图、配套插件等功能。
 
 ### 预览
 ![image](https://source-gz-img.lanyuku.com/jiewen/2024/04/26/111.png)

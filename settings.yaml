@@ -1,7 +1,7 @@
 apiVersion: v1alpha1
 kind: Setting
 metadata:
-  name: theme-Stack2-setting
+  name: theme-stack2-mogai-setting
 spec:
   forms:
     - group: base
